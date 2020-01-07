@@ -4,6 +4,6 @@ RUN rm -rf /var/cache/apk/* && \
     rm -rf /tmp/*
 
 RUN apt-get update && \
-apt-get-install -y ruby python
+apt-get install -y ruby python
 
 RUN npm install node-sass
