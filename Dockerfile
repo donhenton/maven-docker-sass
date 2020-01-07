@@ -1,5 +1,5 @@
 FROM donhenton/maven-docker
-USER ROOT
+USER  root
 RUN rm -rf /var/cache/apk/* && \
     rm -rf /tmp/*
 
